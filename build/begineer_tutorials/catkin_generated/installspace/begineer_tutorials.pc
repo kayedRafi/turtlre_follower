@@ -1,0 +1,8 @@
+prefix=/home/rafi/catkin_ws/install
+
+Name: begineer_tutorials
+Description: Description of begineer_tutorials
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

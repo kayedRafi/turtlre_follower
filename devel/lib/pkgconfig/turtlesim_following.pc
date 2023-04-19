@@ -1,0 +1,8 @@
+prefix=/home/rafi/catkin_ws/devel
+
+Name: turtlesim_following
+Description: Description of turtlesim_following
+Version: 0.0.0
+Cflags: -I/home/rafi/catkin_ws/devel/include -I/home/rafi/catkin_ws/src/turtlesim_following/include
+Libs: -L${prefix}/lib -lturtlesim_following
+Requires: geometry_msgs roscpp rospy message_runtime
