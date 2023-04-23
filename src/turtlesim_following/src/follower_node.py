@@ -13,8 +13,8 @@ class Follower:
 
     def follow(self, data):
         twist = Twist()
-        twist.linear.x =  (data.x - 5) 
-        twist.angular.z =  (data.theta - 0)
+        twist.linear.x = 2*(data.x - 5)**0.5
+        twist.angular.z =  4*(data.theta - 0)
         self.publisher.publish(twist)
 
     def run(self):
